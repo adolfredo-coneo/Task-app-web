@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import ListView from "./components/ListView";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="text-7xl">
-          Tasks App Web
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Header />
+        <ListView />
+      </div>
     </div>
   );
 }
