@@ -1,0 +1,13 @@
+//Create React Application
+npx create-react-app task-app-web --use-npm --template typescript
+
+//Axios
+npm install axios
+
+//git
+git init
+git add .
+git commit -m "initializing repository"
+git branch -M main
+git remote add origin https://github.com/adolfredo-coneo/Reactivities-client-app.git
+git push -u origin main
