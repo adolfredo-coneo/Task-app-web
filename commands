@@ -4,10 +4,15 @@ npx create-react-app task-app-web --use-npm --template typescript
 //Axios
 npm install axios
 
+//Tailwind 
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npm install @craco/craco
+npx tailwindcss init
+
 //git
 git init
 git add .
 git commit -m "initializing repository"
 git branch -M main
-git remote add origin https://github.com/adolfredo-coneo/Reactivities-client-app.git
+git remote add origin https://github.com/adolfredo-coneo/Task-app-web.git
 git push -u origin main
