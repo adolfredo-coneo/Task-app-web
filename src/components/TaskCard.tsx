@@ -7,7 +7,7 @@ interface Props {
 
 const TaskCard = ({ task: { id, title, completed } }: Props) => {
   const [open, setOpen] = useState(false);
-  const [color, setColor] = useState("black");
+  const [color, setColor] = useState("gray");
 
   useEffect(() => {
     if (completed) {
@@ -21,7 +21,7 @@ const TaskCard = ({ task: { id, title, completed } }: Props) => {
 
   return (
     <div
-      className={`relative border-${color} border-2 cursor-pointer`}
+      className={`relative bg-${color} border-4 cursor-pointer`}
       onClick={(Event) => handlerTask()}
     >
       <p>Task # {id}</p>
