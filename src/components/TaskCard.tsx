@@ -30,7 +30,7 @@ const TaskCard = ({ task: { id, title, completed } }: Props) => {
       <p>Task # {id}</p>
       <p className="font-bold">{title}</p>
       <p className="font-medium text-left m-2 italic">{completedText}</p>
-      <TaskView id={id} title={title} open={open} setOpen={setOpen} setColor={setColor} />
+      <TaskView id={id} title={title} open={open} setOpen={setOpen} setColor={setColor} setCompletedText={setCompletedText} />
     </div>
   );
 };

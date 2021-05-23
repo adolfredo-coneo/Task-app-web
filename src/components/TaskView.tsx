@@ -8,9 +8,10 @@ interface Props {
   open: boolean;
   setOpen: (value: boolean) => void;
   setColor: (value: string) => void;
+  setCompletedText: (value: string) => void;
 }
 
-const TaskView = ({ id, title, open, setOpen, setColor }: Props) => {
+const TaskView = ({ id, title, open, setOpen, setColor, setCompletedText }: Props) => {
   const cancelButtonRef = useRef(null);
 
   const handlerComplete = () => {
@@ -20,6 +21,7 @@ const TaskView = ({ id, title, open, setOpen, setColor }: Props) => {
         alert(response.data);
         setOpen(false);
         setColor("green-500");
+        setCompletedText("Completed");
       });
   };
 
