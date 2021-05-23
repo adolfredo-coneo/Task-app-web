@@ -8,10 +8,13 @@ interface Props {
 const TaskCard = ({ task: { id, title, completed } }: Props) => {
   const [open, setOpen] = useState(false);
   const [color, setColor] = useState("gray");
+  const [completedText, setCompletedText] = useState("Pending");
+
 
   useEffect(() => {
     if (completed) {
       setColor("green-500");
+      setCompletedText("Completed");
     }
   }, [completed]);
 
@@ -26,6 +29,7 @@ const TaskCard = ({ task: { id, title, completed } }: Props) => {
     >
       <p>Task # {id}</p>
       <p className="font-bold">{title}</p>
+      <p className="font-medium text-left m-2 italic">{completedText}</p>
       <TaskView id={id} title={title} open={open} setOpen={setOpen} setColor={setColor} />
     </div>
   );
