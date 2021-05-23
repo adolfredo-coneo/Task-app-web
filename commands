@@ -9,6 +9,9 @@ npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefi
 npm install @craco/craco
 npx tailwindcss init
 
+//Headlessui
+npm install @headlessui/react
+
 //Cors
 npm install cors
 npm install -D @types/cors
