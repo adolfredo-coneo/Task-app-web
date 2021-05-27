@@ -23,10 +23,10 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "start2": "craco start",
-    "build2": "craco build",
-    "test2": "craco test",
+    "eject": "craco eject",
+    "start2": "react-scripts start",
+    "build2": "react-scripts build",
+    "test2": "react-scripts test",
     "eject2": "react-scripts eject"
   },
   "eslintConfig": {
