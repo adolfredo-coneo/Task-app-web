@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# React Tasks Web Client
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Webapp Task client built with React, Typescript, Tailwindcss, and Axios. It's connected to a NodeJs [Backend](https://github.com/adolfredo-coneo/Tasks-app-server). The app is currently deployed on Netlify https://task-app-web.netlify.app/ for testing purposes.
 
-## Available Scripts
+## Running The Project
+If you are interested in running the project, then checkout this repo. You will need <code>[node](https://nodejs.org/en/)</code> (v14.1 or later) & <code>[npm](https://www.npmjs.com/)</code> installed. Now start the process with the following:
+```
+> git clone https://github.com/adolfredo-coneo/Task-app-web.git
+> cd Tasks-app-server
+> npm install
+> npm start
+```
+## Testing The Webapp
+After running npm start, the client will open on http://localhost:3000, and you can start using the app by reviewing the tasks and completing them.
 
-In the project directory, you can run:
+### Not Familiar with Git?
+You can download the .zip file. Extract the contents, then move to the project directory, open your terminal, and use:
+```
+> npm install
+> npm start
+```
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Learning Git
+Those who are not yet familiar with Git but want to learn more about how to use it, check out these resources to dive into git workflow -
+- [Git - Documentation](https://git-scm.com/doc)
+- [Codecademy course](https://www.codecademy.com/learn/learn-git)
+- [FCC video tutorial series](https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
+- [How to Use Git and GitHub - FREE course on Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775#)
+- [Getting Git Right - Tutorials on Atlassian](https://www.atlassian.com/git)
+- [List of useful resources & references](https://gist.github.com/eashish93/3eca6a90fef1ea6e586b7ec211ff72a5)
